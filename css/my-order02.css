@@ -1,0 +1,368 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "宋体";
+}
+a{
+text-decoration: none;	
+color: black;
+}
+ul {
+	list-style: none;
+
+}
+
+body {
+	background-color: #F8F8FF;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+	display: block;
+	content: "\20";
+	font-size: 0;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	width: 0;
+}
+
+.clearfix {
+	*zoom: 1;
+
+}
+/* 我的订单整体 */
+.my-order-all{
+	
+	height: 1067px;
+	width: 80%;
+	background-color: #F8F8FF;
+	margin: 0 auto;
+	
+}
+/* 头部小标题 */
+.my-order-header{
+	float: left;
+	height: 30px;
+	width: 100%;
+	background-color: #F8F8FF;
+	/* border: .5px solid; */
+}
+/* 文字 */
+.my-order-header-title{
+	height: 20px;
+	width: 15%;
+	/* border: .5px solid; */
+	text-align: left;
+	margin-top: 10px;
+	line-height: 10px;
+	font-size: 10px;
+	text-decoration: none;
+}
+/* 文字-"首页" */
+.my-order-header-title>a{
+	color: black;
+	opacity: .6;
+	
+}
+.my-order-header-title>a:hover{
+	color: black;
+	opacity: 2;
+	
+}
+/* 我的订单-左边的列表 */
+.my-order-left{
+	float: left;
+	height:1024px ;
+	width: 15%;
+	background-color: white;
+}
+/* 菜单列表 */
+.my-order-left>ul{
+	height: 200px;
+	width: 100%;
+	background-color: yellow;
+	/* border: .5px solid; */
+}
+.my-order-left>ul>li{
+	height: 30px;
+	width: auto;
+	background-color: white;
+	/* border: .5px solid; */
+	padding-left: 44px;
+	line-height: 30px;	
+}
+.my-order-left>ul>li:first-child{
+	padding: 20px 10px 0 0 ;
+	padding-left: 44px ;
+	
+}
+#first-font{
+	font-size: 16px;
+}
+.my-order-left>ul>li>a{
+	opacity: .6;
+	font-size: 12px;
+}
+
+.my-order-left>ul>li>a:hover{
+	opacity: 2;
+	font-size: 12px;
+	/* color: darkorange; */
+}
+/* 我的右边订单详细 */
+.my-order-right{
+	float: left;
+	height: 800px;
+	width:83.5% ;
+	margin-left: 1.5%;
+	background-color: white;
+	
+}
+/* 头部 */
+.my-order-right-header{
+	height: 60px;
+	width: 90%;
+	background-color: red;
+	margin-left: 5%;
+	/* border: .5px solid; */
+	
+}
+.title{
+	/* float: left; */
+	height: 60px;
+	width: 100%;
+	/* border:.5px  solid; */
+	background-color: white;
+	
+}
+/* "我的订单" */
+.title>h2{
+	float: left;
+	font-family: "宋体";
+	height: 60px;
+	width: auto;
+	/* border: .5px solid; */
+	line-height: 70px;
+}
+/* 请谨防钓鱼链接或诈骗电话 */
+.title>small{
+	height: 6px;
+	width: auto;
+	/* border: .5px solid; */
+	line-height: 90px;
+	font-size: 10px;
+}
+/* "了解更多" */
+.title>a{
+	font-size: 10px;
+	
+}
+.title>a:hover{
+	color: darkorange;
+	text-decoration:underline;
+	
+	
+}
+.title>a>span{
+	line-height: 10px;
+	
+}
+
+/* 订单的导航栏 */
+.my-order-right-nav{
+	float: left;
+	height: 50px;
+	width: 90%;
+	/* border: .5px solid; */
+	/* background-color: yellow; */
+	margin-left: 5%;
+}
+/* ul */
+.my-order-right-nav>ul{
+	float: left;
+	width: 40%;
+	height: 50px;
+	/* border: .5px solid; */
+	text-align: center;
+	line-height: 50px;
+	padding: 0 2px;
+}
+.my-order-right-nav>ul>li{
+	float: left;
+}
+.my-order-right-nav>ul>li>a{
+	font-family: "宋体";
+	font-size: 14px;
+}
+.my-order-right-nav>ul>li>a:hover{
+	color: darkorange;
+	text-decoration: underline;
+	
+	
+}
+/* 右边搜索 */
+.my-order-right-nav-search{
+	float: right;
+	height: 50px;
+	width: 150px%;
+	/* background-color: red; */
+	/* border: .5px solid; */
+	/* margin-right: 5%; */
+	
+}
+
+#input-text{
+	float: left;
+	width: 150px;
+	height: 30px;
+	margin-top: 7.5px;
+	outline:none;
+	font-size: 10px;
+}
+#input-search{
+	float: left;
+	width: 34px;
+	height:34px;
+	margin-top: 7.5px;
+}
+
+/* 我的订单信息 */
+.my-order-mes{
+	float: left;
+	height: 500px;
+	width: 100%;
+	
+	/* background-color: orange; */
+	
+}
+/* 订单列表 */
+.order-list{
+	height: 225px;
+	width:90% ;
+	margin-left: 5%;
+	border: .5px solid #BEBEBE;
+	background-color: white;
+	
+}
+/* 签收信息 */
+.order-title{
+	display: inline-block;
+	height: 30px;
+	width: 90%;
+	margin-top: 5%;
+	margin-left: 5%;
+	/* border: .5px solid;	 */
+}
+/* 已收货 */
+.order-title>span{
+	line-height: 30px;
+	opacity: .6;
+}
+
+/* 包裹 */
+.order-title>button{
+	height: 15px;
+	width: 50px;
+	font-size: 10px;
+	line-height: 10px;
+	background-color: yellowgreen;
+	outline: none;
+	border: none;
+	color: white;
+}
+
+/* 订单号 */
+.order-number{
+	float: left;
+	height: 40px;
+	width: 65%;
+	background-color: white;
+	margin-left: 5%;
+	font-size: 12px;
+	line-height: 40px;
+}
+/* 实付金额 */
+.pay-for{
+	float: right;
+	height: 40px;
+	width: 24%;
+	margin-right: 5%;
+	/* background-color: white; */
+	display: inline-block;
+	text-align: right;
+	line-height: 40px;
+}
+.pay-for>h3{
+	
+	/* border: .5px solid; */
+}
+#order-price{
+	font-size: 24px;
+	
+}
+/* 订单详细信息 */
+.order-more-mes{
+	float: left;
+	height: 100px;
+	width: 100%;
+	border-top:.5px solid #e5e5e5 ;
+	/* margin-left: 5%; */
+}
+/* 左边图文详细 */
+.order-more-mes-img{
+	float: left;
+	height: 90px;
+	width: 70%;
+	/* border: .5px solid; */
+	margin: 5px 0;
+	font-size: 14px;
+}
+.order-more-mes-img>img{
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 5px;
+	/* border: .5px solid; */
+}
+#product-text{
+	margin-top: 35px;
+}
+
+/* 售后 */
+.order-more-after{
+	float: right;
+	height: 90px;
+	width: 27%;
+	/* border: .5px solid; */
+	margin: 5px 0;
+	font-size: 14px;
+	display: block;
+	
+}
+/* 按钮 */
+.btn-order-more-after{
+	float:right;
+	height: 60px;
+	/* border: .5px solid; */
+	width: 50%;
+	margin-top: 8%;
+	margin-right: 20%;
+	/* background-color: red; */
+	
+}
+.btn-order-more-after>button{
+	height: 25px;
+	width: 100%;
+	border: .5px solid;
+	margin: 2px .5px;
+	font-size: 12px;
+	background-color: white;
+}
+.btn-order-more-after>button:hover{
+	background-color: green;
+	cursor: pointer;
+	
+	
+}

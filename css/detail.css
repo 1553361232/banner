@@ -1,0 +1,119 @@
+.detailBox{
+	width: 85%;
+	margin: 0 auto;
+}
+.zhuye{
+	color: #C7BFBF;
+	font-size: 0.093rem;
+	padding-bottom:0.156rem;
+	
+}
+.product{
+	width: 7.453rem;
+	height: 4.031rem;
+	margin: 0.546rem 0;
+}
+.zhuye span{
+	color: #3c3c3c;
+}
+.detailCont{
+	float: left;
+	width: 3.125rem;
+	height: 3.125rem;
+	
+}
+.detail-img{
+	width: 3.125rem;
+}
+.detail-con{
+	float: left;
+	width: 4.187rem;
+}
+.detail-con h1{
+	font-weight: 100;
+	color: #000000;
+	font-size: 0.234rem;
+	
+}
+.detail-con small{
+	font-size: 0.085rem;
+	color: #909090;
+}
+.detail-con small.small-con{
+	color: #4e4949;
+	font-size: 0.093rem;
+}
+.p-con{
+	color: #909090;
+	font-size: 0.093rem;
+}
+.goumai{
+	position: relative;
+	width: 100%;
+	height: 1.015rem;
+	border-bottom: 0.007rem solid #4F4949;
+	
+}
+.goumai-left{
+	position: absolute;
+	top: 0.312rem;
+	left: 0;
+	font-size: 0.093rem;
+	color: #3c3c3c;
+}
+.goumai-right{
+	position: absolute;
+	top: 0.300rem;
+	right: 0;
+	
+}
+.goumai-select{
+	outline: none;
+	margin-left: 0.015rem;
+	width: 0.382rem;
+}
+.goumai-span{
+	font-size: 0.187rem;
+}
+.goumai-right>button{
+	width: 1.046rem;
+	height: 0.25rem;
+	background-color:#4F4949;
+	border-radius: 0.039rem;
+	border: 0.007rem solid #4F4949;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 700;
+	margin-bottom: 0.039rem;
+	cursor: pointer;
+	
+}
+.goumai-right>button:hover{
+	background-color: #837D7F;
+	cursor: pointer;
+}
+.options{
+	width: 4.187rem;
+	height: 0.57rem;
+	padding-top: 0.195rem;
+	
+}
+.options li{
+	width: 0.695rem;
+	height: 0.367rem;
+	float: left;
+	text-align: center;
+	
+}
+.options-img{
+	width: 0.234rem;
+	height: 0.234rem;
+	margin: 0 auto;
+}
+.options span{
+	
+	color: #4e4848;
+	font-size: 0.085rem;
+}
+
+

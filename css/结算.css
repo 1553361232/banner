@@ -1,0 +1,134 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/*顶部*/
+.top{
+	/*width: 100%;*/
+	background-color: #f5f5f5;
+}
+.top-content,.box1,.box2{
+	width: 70%;
+	margin: 0 auto;
+	
+}
+.top-content >div{
+	height: auto;
+	display: inline-block;
+}
+.top-height{
+	padding: 8px 15px;
+	display: block;
+	color: #555;
+	font-size: 12px;
+	line-height: 20px;
+}
+.top-content div>a:hover{
+	background-color: #fff;
+	color: red;
+	
+	
+}
+.top-user-content{
+	position: absolute;
+	top: 30px;
+	border: 1px solid #e6e6e6;
+	border-top: none;
+	display: none;
+	z-index: 999;
+	background-color: #fff;
+}
+
+/*主体部分*/
+.main-part .box1{
+	padding: 20px 0;
+}
+.box1 img{
+	height: 15%;
+	width: 15%;
+}
+.box1 h2{
+	font-size: 32px;
+	height: 100%;
+	display: inline-block;
+}
+.box1-content{
+	display: flex;
+	align-items: center;
+}
+.box1-phases{
+	margin-left: 300px;
+	width: 380px;
+	height: 48px;
+	background: url(../img/order_path.png) 0 -50px;
+}
+
+.information{
+	padding: 20px 0;
+}
+.information-content{
+	display: inline-block;
+	border: 1px solid #333;
+	height: 130px;
+	width: 100%;
+	background-color: #fcfcfc;
+}
+.information-content ul{
+	/*display: flex;
+	flex-wrap: nowrap;*/
+}
+.information-content li{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+	height:90px;
+	background-color: #fcfcfc;
+}
+.details{
+	display: flex;
+	align-items:center;
+}
+
+
+.information-content ul li:nth-child(1){
+	
+	width: 450px;
+}
+.information-content ul li:nth-child(2){
+	margin-left: 1px;
+	width: 250px;
+}
+
+.quantity{
+	text-align:center;
+}
+.information-content ul li:nth-child(3){
+	margin-left: 1px;
+	width: 200px;
+}
+
+
+.information-content ul li:nth-child(4){
+	float: right;
+	margin-left: 1px;
+	width: 160px;
+}
+
+.close-the-deal{
+	border: 2px solid #FF7F50;
+	padding: 20px 20px ;
+}
+.close-the-deal h1{
+	text-align: center;
+	color: #FF7F50;
+}
+.close-the-deal h4{
+	text-align: center;
+}
+.close-the-deal h4 span{
+	color: chartreuse;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/my-order02.css"/>
+		<!-- iconfont图标库 -->
+		<link rel="stylesheet" href="myfonts/iconfont.css">
+		<meta charset="utf-8">
+		<script src="https://cdn.bootcss.com/jquery/2.0.1/jquery.min.js"></script>
+		<title>我的订单</title>
+	</head>
+	<body>
+		<!-- 陈进栩 -->
+		<!-- 我的订单 -->
+		<!-- 我的订单整体 -->
+		<div class="my-order-all clearfix">
+			<!-- 头部小标题 -->
+			<div class="my-order-header">
+				<!-- 文字 -->
+				<div class="my-order-header-title">
+					<a href="#">首页</a>
+					<span class="iconfont icon-youbian"></span>
+					<span>我的订单</span>
+				</div>
+			</div>
+			
+			
+			<!-- 左边的列表内容 -->
+			<div class="my-order-left">
+				<!-- 菜单列表 -->
+				<ul>
+					<li><h4 href="#" id="first-font">订单中心</h4></li>
+					<li><a href="#">我的订单</a></li>
+					<li><a href="#">团购订单</a></li>
+					<li><a href="#">评价晒单</a></li>
+					<li><a href="#">话费充值订单</a></li>
+					<li><a href="#">以旧换新订单</a></li>
+				</ul>
+			</div>
+			
+			<!-- 右边的订单详细 -->
+			<div class="my-order-right">
+				<!-- 头部标题 -->
+				<div class="my-order-right-header">
+					<div class="title">
+						<h2>我的订单</h2>
+						<small>请谨防钓鱼链接或诈骗电话,</small>
+						<a href="#">了解更多</a><span class="iconfont icon-youbian"></span>
+					</div>
+				</div>
+				
+				<!-- 订单导航栏 -->
+				<div class="my-order-right-nav ">
+					<!-- 左边的列表 -->
+					<ul>
+						<li><a href="#">全部有效订单</a><span class="iconfont icon-shutiao"></span></li>
+						<li><a href="#">待支付</a><span class="iconfont icon-shutiao"></span></li>
+						<li><a href="#">待收货</a><span class="iconfont icon-shutiao"></span></li>
+						<li><a href="#">已关闭</a></li>
+					</ul>
+					
+					<!-- 右边的搜索框 -->
+					<div class="my-order-right-nav-search">
+						<input type="text" name="" id="input-text" value="" placeholder="输入商品名称,商品编号,订单号" />
+					    <button type="button" id="input-search"><span class="iconfont icon-sousuo"></span></button>
+					</div>
+				</div>
+				
+				<!-- 订单信息 -->
+				<div class="my-order-mes">
+					<!-- 订单列表 -->
+					<ul class="order-list">
+						<!-- 签收信息 -->
+						<div class="order-title">
+							<span id="state-sign-in">已收货</span>
+							<button class="tag">包裹1</button>
+						</div>
+						
+						<!-- 订单号 -->
+						<div class="order-number">
+							<p>2019年02月06日 09:41<span class="iconfont icon-shutiao"></span>李世豪<span class="iconfont icon-shutiao"></span><a href="#">订单号：5190206847101087</a><span class="iconfont icon-shutiao"></span>微信支付（APP）</p>
+						</div>
+						
+						<!-- 实付金额 -->
+						<div class="pay-for">
+							<!-- 实付金额 -->
+							<span>实付金额:</span>
+							<span id="order-price">
+								286
+							</span>
+							<span>
+								元
+							</span>
+						</div>
+						
+						<!-- 订单商品详细信息 -->
+						<ul class="order-more-mes">
+							<!-- 图文详细 -->
+							<div class="order-more-mes-img">
+								<img src="img/mi/8H护颈乳胶枕%20雅米色.jpg" >
+								<p id="product-text"><a href="#">8H护颈乳胶枕</a>&nbsp;<span>雅米色</span><span></p>
+								<span id="product-price"><span>239</span><span>元</span> × <span>1</span></span>
+							</div>
+							
+							<!-- 售后 -->
+							<div class="order-more-after">
+								<div class="btn-order-more-after">
+									<button type="button">订单详情</button>
+									<button type="button">申请售后</button>
+								</div>
+							</div>
+						</ul>
+						
+					</ul>
+					
+					
+					<ul class="order-list">
+						<!-- 签收信息 -->
+						<div class="order-title">
+							<span>已收货</span>
+							<button class="tag">包裹1</button>
+						</div>
+						
+						<!-- 订单号 -->
+						<div class="order-number">
+							<p>2019年02月06日 09:41<span class="iconfont icon-shutiao"></span>李世豪<span class="iconfont icon-shutiao"></span><a href="#">订单号：5190206847101087</a><span class="iconfont icon-shutiao"></span>微信支付（APP）</p>
+						</div>
+						
+						<!-- 实付金额 -->
+						<div class="pay-for">
+							<!-- 实付金额 -->
+							<span>实付金额:</span>
+							<span id="order-price">
+								286
+							</span>
+							<span>
+								元
+							</span>
+						</div>
+						
+						<!-- 订单商品详细信息 -->
+						<ul class="order-more-mes">
+							<!-- 图文详细 -->
+							<div class="order-more-mes-img">
+								<img src="img/mi/8H护颈乳胶枕%20雅米色.jpg" >
+								<p id="product-text"><a href="#">8H护颈乳胶枕</a>&nbsp;<span>雅米色</span><span></p>
+								<span id="product-price"><span>239</span><span>元</span> × <span>1</span></span>
+							</div>
+							
+							<!-- 售后 -->
+							<div class="order-more-after">
+								<div class="btn-order-more-after">
+									<button type="button">订单详情</button>
+									<button type="button">申请售后</button>
+								</div>
+							</div>
+						</ul>
+						
+					</ul>
+					
+					<!-- 分页 -->
+					
+					
+				</div>
+				
+				
+				
+				
+				
+			</div>
+			
+		</div>
+		
+	</body>
+</html>

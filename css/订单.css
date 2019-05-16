@@ -1,0 +1,235 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/*顶部*/
+.top{
+	/*width: 100%;*/
+	background-color: #f5f5f5;
+}
+.top-content,.box1,.box2{
+	width: 70%;
+	margin: 0 auto;
+	
+}
+.top-content >div{
+	height: auto;
+	display: inline-block;
+}
+.top-height{
+	padding: 8px 15px;
+	display: block;
+	color: #555;
+	font-size: 12px;
+	line-height: 20px;
+}
+.top-content div>a:hover{
+	background-color: #fff;
+	color: red;
+	
+	
+}
+.top-user-content{
+	position: absolute;
+	top: 30px;
+	border: 1px solid #e6e6e6;
+	border-top: none;
+	display: none;
+	z-index: 10;
+	background-color: #fff;
+}
+
+/*主体部分*/
+.main-part .box1{
+	padding: 20px 0;
+}
+.box1 img{
+	height: 15%;
+	width: 15%;
+}
+.box1 h2{
+	font-size: 0.16rem;
+	height: 100%;
+	display: inline-block;
+	
+}
+.box1-content{
+	display: flex;
+	align-items: center;
+}
+.box1-phases{
+	margin-left: 300px;
+	width: 380px;
+	height: 48px;
+	background: url(../img/order_path.png) 0 -50px;
+}
+
+.content-form{
+	width: 100%;
+}
+
+.tbody {
+	background-color: #e8e8e8;
+	width: 100%;
+}
+.tbody th{
+	padding: 5px 0;
+	font-size: 14px;
+	font-weight:lighter;
+}
+.tbody th:nth-child(1){
+	width: 440px;
+}
+.tbody th:nth-child(5){
+	width: 150px;
+}
+
+
+
+/*商品订单信息*/
+.information{
+	padding: 20px 0;
+}
+.information-content{
+	margin: 10px 0;
+	display: inline-block;
+	border: 1px solid #333;
+	height: 130px;
+	width: 100%;
+	background-color: #fcfcfc;
+	font-size: 0.133333rem;
+}
+.information-content ul{
+	/*display: flex;
+	flex-wrap: nowrap;*/
+}
+.information-content li{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+	height:90px;
+	background-color: #fcfcfc;
+}
+.details{
+	display: flex;
+	align-items:center;
+}
+
+
+.information-content ul li:nth-child(1){
+	padding-left: 20px;
+	width: 2.8rem;
+}
+.information-content ul li:nth-child(2){
+	margin-left: 1px;
+	width: 1.333333rem;
+}
+
+.quantity{
+	text-align:center;
+}
+.information-content ul li:nth-child(3){
+	margin-left: 1px;
+	width: 1.333333rem;
+}
+
+
+.information-content ul li:nth-child(4){
+	margin-left: 1px;
+	width: 1.333333rem;
+}
+
+.delete{
+	padding: 5px 10px;
+	border: 1px solid #f5f5f5;
+	background-color: #FF0000;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.titu{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+
+}
+
+.titu img{
+	width: 200px;
+	height: 213px;
+}
+/*付款*/
+.paymentr{
+	display: flex;
+	justify-content:flex-end;
+	font-size: 0.133333rem;
+}
+.payment{
+	
+	border: 1px solid #f40;
+	
+}
+.payment-content{
+	border: 3px solid #fff0e8;
+	padding: 10px 10px;
+}
+.payment-content p{
+	display: inline-block;
+	font-size: 30px;
+	color: #555555;
+}
+.payment-content a{
+	display: block;
+	background-color: #F40;
+	color: #fff;
+	padding: 10px 40px;
+	text-align: center;
+}
+.payment-content div{
+	display: flex;
+	justify-content:flex-end;
+	padding: 10px 0;
+	
+}
+
+
+/*底部*/
+.base{
+	height: 250px;
+	margin-top: 20px;
+	width: 100%;
+	background-color: #f0f0f0;
+	font-size: 0.133333rem;
+}
+.basedbu{
+	display: flex;
+	margin: 0 200px;
+	padding: 50px 0;
+	 align-items:center
+}
+
+.base-content{
+	display: inline-block;
+	width: 360px;
+	padding: 5px 5px;
+	border-left: 1px solid #555;
+}
+
+.as li{
+	float: left;
+	/*color: #fff;*/
+	padding: 5px 10px;
+}
+
+.as p{
+	padding: 5px 0;
+	font-size: 14px;
+}
+.as a{
+	color: #333;
+}
+

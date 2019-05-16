@@ -1,0 +1,179 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #E8E8E8;
+}
+
+.login-dh{
+	width: 900px;
+	height: 120px;
+	position: relative;
+	left: 260px;
+	top: 50px;
+	background-image: url(../img/yg.jpg);
+	border-bottom: 5px solid coral;
+	background-position: 80px -220px;
+}
+
+.logo{
+	width: 90px;
+	height: 90px;
+	position: relative;
+	top: 15px;
+}
+
+#login-txt{
+	color: #FF7F50;
+	font-size: 32px;
+	position: relative;
+	top: -30px;
+}
+
+#login-txt-2{
+	position: relative;
+	left: -100px;
+}
+
+.login-button{
+	width: 120px;
+	height: 40px;
+	background-color: coral;
+	outline: none;
+	border-radius:10px;
+	position: relative;
+	left: 500px;
+}
+
+.login-button:hover{
+	background-color: #EE2C2C;
+}
+
+.subject{
+	width: 900px;
+	border: 2px solid black;
+	position: relative;
+	left: 260px;
+	top: 100px;
+	background-color: white;
+}
+
+#username{
+	width: 400px;
+	height: 30px;
+	
+}
+
+.username-input{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.user-pwd{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#pwd{
+	width: 400px;
+	height: 30px;
+}
+
+#pwd-qr{
+	width: 400px;
+	height: 30px;
+}
+
+.agin{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.user-emill{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#emill{
+	width: 400px;
+	height: 30px;
+}
+
+.user-sex{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#sex{
+	width: 400px;
+	height: 30px;
+}
+
+.user-name{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#name{
+	width: 400px;
+	height: 30px;
+}
+
+.user-age{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#age{
+	width: 400px;
+	height: 30px;
+}
+
+.user-bir{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#bir{
+	width: 400px;
+	height: 30px;
+}
+
+.user-phone{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#phone{
+	width: 400px;
+	height: 30px;
+}
+
+.user-btn{
+	padding-top: 40px;
+	padding-left: 10px;
+}
+
+#sub{
+	width: 40px;
+	height: 30px;
+	position: relative;
+	left: 160px;
+
+}
+
+#res{
+	width: 40px;
+	height: 30px;
+	position: relative;
+	left: 200px;
+
+}
+
+.photo{
+	float: right;
+	padding-right: 70px;
+	margin-top: -260px;
+	
+}

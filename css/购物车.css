@@ -1,0 +1,278 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/*顶部*/
+.top{
+	/*width: 100%;*/
+	background-color: #f5f5f5;
+}
+.top-content,.box1,.box2{
+	width: 70%;
+	margin: 0 auto;
+	
+}
+.top-content >div{
+	height: auto;
+	display: inline-block;
+}
+.top-height{
+	padding: 8px 15px;
+	display: block;
+	color: #555;
+	font-size: 12px;
+	line-height: 20px;
+}
+.top-content div>a:hover{
+	background-color: #fff;
+	color: red;
+	
+	
+}
+.top-user-content{
+	position: absolute;
+	top: 30px;
+	border: 1px solid #e6e6e6;
+	border-top: none;
+	display: none;
+	z-index: 10;
+	background-color: #fff;
+}
+
+/*主体部分*/
+.main-part .box1{
+	padding: 20px 0;
+}
+.box1 img{
+	height: 15%;
+	width: 15%;
+}
+.box1 h2{
+	font-size: 0.2rem;
+	height: 100%;
+	display: inline-block;
+}
+.box1-content{
+	display: flex;
+	align-items: center;
+}
+.box1-phases{
+	margin-left: 300px;
+	width: 380px;
+	height: 48px;
+	background: url(../img/order_path.png) 0 0px;
+}
+
+/*购物车商品信息*/
+.information{
+	padding: 20px 0;
+}
+.information-content{
+	display: inline-block;
+	border: 1px solid #333;
+	height: 130px;
+	width: 100%;
+	background-color: #fcfcfc;
+}
+.information-content ul{
+	/*display: flex;
+	flex-wrap: nowrap;*/
+}
+.information-content li{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+	height:90px;
+	background-color: #fcfcfc;
+}
+.details{
+	display: flex;
+	align-items:center;
+	font-size: 0.133333rem;
+}
+.details p{
+	font-size: 0.106666rem;
+}
+
+.information-content ul li:nth-child(1){
+	width: 0.333333rem;
+}
+.information-content ul li:nth-child(1) input{
+	height: 15px;
+	width: 15px;
+	
+}
+.information-content ul li:nth-child(2){
+	width: 2.666666rem;
+	
+}
+.information-content ul li:nth-child(3){
+	margin-left: 1px;
+	width: 1.333333rem;
+}
+
+.quantity{
+	text-align:center;
+}
+.information-content ul li:nth-child(4){
+	margin-left: 1px;
+	width:0.533333rem;
+}
+.information-content ul li:nth-child(4) a{
+	background-color: #f0f0f0;
+	width: 0.133333rem;
+	height: 0.16rem;
+	text-align: center;
+	display: flex;
+	align-items:center;
+	line-height: 0.266666rem;
+	color: #000000;
+}
+.information-content ul li:nth-child(4) input{
+	width: 0.2rem;
+}
+.information-content ul li:nth-child(5){
+	margin-left: 1px;
+	width: 1.066666rem;
+}
+.information-content ul li:nth-child(6){
+	font-size: 0.133333rem;
+	width: 0.8rem;
+}
+.delete{
+	padding: 5px 10px;
+	border: 1px solid #f5f5f5;
+	background-color: #FF0000;
+	border-radius: 5px;
+	color: #fff;
+}
+ /*浮动条*/
+.float-bar{
+	
+	width: 7.066666rem;
+	background-color: #e5e5e5;
+	bottom: -1px;
+    z-index: 9999;
+}
+.float-bar-content{
+	font-size: 0.133333rem;
+}
+
+.float-bar-content div{
+	display: inline-block;
+	padding: 15px 0;
+}
+.check-all{
+	
+	
+}
+.quantityt{
+	float: right;
+	margin-right: 20px;
+}
+.quantityt span{
+	color: #FF7F50;
+}
+.total{
+	float: right;
+	margin-right: 20px;
+}
+.total span{
+	color: #FF7F50;
+}
+.closeanaccount{
+	display: inline-block;
+	float: right;
+	background-color: coral;
+	color: #fff;
+	padding: 15px 40px;
+}
+.deletef{
+	color: #000;
+	margin-left: 20px;
+}
+.totalt{
+	float: right;
+	margin-right: 20px;
+}
+
+#totals{
+	color: #FF7F50;
+}
+
+
+.titu{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+
+}
+.titu img{
+	width: 200px;
+	height: 213px;
+}
+
+
+.content-form{
+	width: 100%;
+}
+
+.tbody {
+	background-color: #e8e8e8;
+	width: 100%;
+}
+.tbody th{
+	padding: 5px 0;
+	font-size: 14px;
+	font-weight:lighter;
+}
+.tbody th:nth-child(1){
+	width: 480px;
+}
+.tbody th:nth-child(5){
+	width: 150px;
+}
+.tbody th:nth-child(4){
+	width: 150px;
+}
+
+
+/*底部*/
+.base{
+	height: 250px;
+	margin-top: 20px;
+	width: 100%;
+	background-color: #f0f0f0;
+	font-size: 0.133333rem;
+}
+.basedbu{
+	display: flex;
+	margin: 0 200px;
+	padding: 50px 0;
+	 align-items:center
+}
+
+.base-content{
+	display: inline-block;
+	width: 360px;
+	padding: 5px 5px;
+	border-left: 1px solid #555;
+}
+
+.as li{
+	float: left;
+	/*color: #fff;*/
+	padding: 5px 10px;
+}
+
+.as p{
+	padding: 5px 0;
+	font-size: 14px;
+}
+.as a{
+	color: #333;
+}
